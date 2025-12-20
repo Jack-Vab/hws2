@@ -1,31 +1,54 @@
 .friendMessage {
-
+  width: 575px;
+  margin: 0 auto 0 3%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
 }
 
 .friendImageAndText {
-
+  display: flex;
+  align-items: center;
 }
 
 .friendImageAndText img {
-
+  width: 48px;
+  height: 48px;
 }
 
 .friendText {
-
+  background: #f5f7fb;
+  border-radius: 5px;
+  padding: 8px 13px;
+  position: relative;
+  margin-left: 10px;
 }
 
 .friendText:after {
-
+  content: '';
+  position: absolute; /* Абсолютное позиционирование */
+  left: -12px;
+  bottom: 0px; /* Положение треугольника */
+  border: 8px solid transparent;
+  border-right: 8px solid #f5f7fb;
+  border-bottom: 8px solid #f5f7fb;
 }
 
 .friendName {
-
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .friendMessageText {
-
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .friendTime {
-
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  padding-left: 10px;
+  font-size: 10px;
 }

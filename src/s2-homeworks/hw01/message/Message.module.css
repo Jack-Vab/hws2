@@ -1,31 +1,58 @@
 .message {
-
+  width: 575px;
+  margin: 0 3% 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
 }
 
 .imageAndText {
-
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
 }
 
 .imageAndText img {
-
+  width: 48px;
+  height: 48px;
 }
 
 .text {
-
+  background: #0066cc;
+  border-radius: 5px;
+  padding: 8px 13px;
+  color: #fff;
+  position: relative;
+  margin-right: 10px;
 }
 
 .text:after {
-
+  content: '';
+  position: absolute; /* Абсолютное позиционирование */
+  right: -12px;
+  bottom: 0px; /* Положение треугольника */
+  border: 8px solid transparent;
+  border-left: 8px solid #0066cc;
+  border-bottom: 8px solid #0066cc;
 }
 
 .name {
-
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: right;
 }
 
 .messageText {
-
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .time {
-
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 10px;
 }

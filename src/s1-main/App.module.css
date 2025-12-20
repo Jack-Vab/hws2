@@ -1,11 +1,14 @@
 .App {
-    --header_height: 60px;
+  --header_height: 60px;
 }
 
 .hw {
-
+  height: 1vh;
 }
 
 .hwTitle {
-
+  padding: 20px 15px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 22px;
 }
