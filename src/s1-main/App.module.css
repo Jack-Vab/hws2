@@ -3,7 +3,8 @@
 }
 
 .hw {
-  height: 1vh;
+  height: 100%;
+  margin-bottom: 150px;
 }
 
 .hwTitle {
@@ -11,4 +12,5 @@
   font-family: Montserrat, sans-serif;
   font-weight: 600;
   font-size: 22px;
+  margin-left: 55px;
 }
